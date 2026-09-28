@@ -17,12 +17,14 @@ test("keeps source-position links inside Paseo", () => {
   }
 });
 
-test("routes plain local files to Finder and leaves web links alone", () => {
+test("routes plain local files to the native file manager and leaves web links alone", () => {
   for (const href of [
     "/Users/matteo/Downloads/archive.zip",
     "file:///Users/matteo/Downloads/archive.zip",
     "docs/README.md",
     "~/Downloads/archive.zip",
+    String.raw`C:\Users\Matteo\Downloads\archive.zip`,
+    "file:///C:/Users/Matteo/Downloads/archive.zip",
   ]) {
     assert.equal(isFinderEligibleHref(href), true, href);
   }

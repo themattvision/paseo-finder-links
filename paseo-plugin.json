@@ -1,6 +1,6 @@
 {
   "id": "paseo-finder-links",
-  "description": "Mostra nel Finder i link a file locali senza sostituire l'app Paseo.",
+  "description": "Reveal local file links in macOS Finder or Windows File Explorer without replacing Paseo's source navigation.",
   "requirements": {
     "paseo": ">=0.9.2"
   }

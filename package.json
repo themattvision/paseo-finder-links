@@ -1,7 +1,21 @@
 {
   "name": "paseo-finder-links",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "description": "Reveal local file links from Paseo in Finder or File Explorer.",
+  "author": "Matteo Zampieri",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/themattvision/paseo-finder-links.git"
+  },
+  "homepage": "https://github.com/themattvision/paseo-finder-links#readme",
+  "keywords": [
+    "paseo",
+    "paseo-plugin",
+    "finder",
+    "file-explorer"
+  ],
   "type": "module",
   "files": [
     "paseo-plugin.json",
