@@ -9,7 +9,7 @@ in macOS Finder or Windows File Explorer, while web links and source references 
 Enable plugins in Paseo under **Settings > Plugins**, then install the public Git repository:
 
 ```bash
-paseo plugin add themattvision/paseo-finder-links
+paseo plugin add npm:paseo-finder-links@0.1.0
 paseo plugin ls paseo-finder-links
 ```
 
