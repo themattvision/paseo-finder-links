@@ -1,0 +1,7 @@
+{
+  "id": "paseo-finder-links",
+  "description": "Mostra nel Finder i link a file locali senza sostituire l'app Paseo.",
+  "requirements": {
+    "paseo": ">=0.9.2"
+  }
+}

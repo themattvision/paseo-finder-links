@@ -1,0 +1,32 @@
+{
+  "name": "paseo-finder-links",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "paseo-plugin.json",
+    "index.client.ts",
+    "index.client.tsx",
+    "index.server.ts",
+    "index.server.tsx",
+    "client/",
+    "server/",
+    "shared/"
+  ],
+  "scripts": {
+    "test": "node --experimental-strip-types --test shared/reveal.test.ts server/reveal.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@getpaseo/client": "^0.9.2",
+    "@getpaseo/plugin": "^0.9.2",
+    "@getpaseo/protocol": "^0.9.2",
+    "@tanstack/react-query": "^5.90.11",
+    "@types/node": "^22.20.4",
+    "@types/react": "~19.2.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "typescript": "^5.9.3",
+    "zod": "^4.4.3"
+  }
+}
